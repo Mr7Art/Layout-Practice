@@ -22,7 +22,7 @@ button{
     text-shadow: 0px 0px 10px rgba(209, 209, 209, 0.4);
 }
 
-.main, .one, .two, .three, .four, .five, footer{
+.main, .one, .three, .four, .five, footer{
     max-width: 1140px;
     margin: 0 auto;
 } 
@@ -140,7 +140,7 @@ figcaption{
 
 .content-1{
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     margin: 50px auto;
 }
@@ -151,27 +151,47 @@ figcaption{
 
 /*section-two style*/
 
+.two {
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+}
 
+.two img{
+    align-self: end;
+}
 
+.text-page-two{
+    margin-left: -10%;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    padding-right: 10%;
+    text-align: start;
+    font-weight: 300;
+    align-self: baseline;
+    color: #4A4A4A;
+}
 
+.text-page-two h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #299CBD;
+}
+
+.text-page-two p{
+    margin: 15px 0;
+}
+
+.text-page-two .bold{
+    font-weight: bold;
+}
 
 /*section-three style*/
+
+
+
+
+
 /*section-four style*/
-
-
-/*.one {
-}
-.content-1 {
-}
-.two {
-}
-.three {
-}
-.content-2 {
-}
-.four {
-}
-.five {
-}
-.footer {
-}*/
