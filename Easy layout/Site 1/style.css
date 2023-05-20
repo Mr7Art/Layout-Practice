@@ -299,8 +299,35 @@ div .circle {
     font-weight: 400;
     font-size: 22px;
     color: #4A4A4A;
+    margin-bottom: 50px;
 }
 
 /*footer style*/
 
+.footer-page{
+    background-color: #1A1A1A;
+    height: 200px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #888888;
+}
 
+.footer{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 407px;
+    height: 43px;
+    position: relative;
+    top: 35%;
+
+}
+
+.footer a {
+    color: #888888;
+    padding: 0 2%;
+}
+
+.footer .border  {
+    border-right: #888888 1px solid;
+}
