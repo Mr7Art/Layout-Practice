@@ -27,6 +27,13 @@ button{
     margin: 0 auto;
 } 
 
+
+figcaption{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+}
+
 /*main style*/
 
 .main-page{
@@ -104,12 +111,55 @@ button{
 
 
 /*section-one style*/
+
+.one-page{
+    background-color: #EFEFEF;
+    height: 600px;
+    color: #4A4A4A;
+}
+
+.one h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-top: 75px;
+    color: #252525;
+}
+
+.one span{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.one .creative-line{
+    width: 220px;
+    height: 2px;
+    border:#F9BF3B 2px solid;
+    margin: 18px auto;
+}
+
+.content-1{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.content-1 figure{
+    width: 30%;
+}
+
 /*section-two style*/
+
+
+
+
+
 /*section-three style*/
 /*section-four style*/
 
 
-.one {
+/*.one {
 }
 .content-1 {
 }
@@ -124,4 +174,4 @@ button{
 .five {
 }
 .footer {
-}
+}*/
