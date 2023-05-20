@@ -190,8 +190,61 @@ figcaption{
 
 /*section-three style*/
 
+.three-page{
+    background-image: url(image/second_bg.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+}
 
+.three h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding-top: 75px;
+    color: white;
+    padding-top: 80px;
+}
 
+.three .creative-line{
+    width: 220px;
+    height: 2px;
+    border:#F9BF3B 2px solid;
+    margin: 20px auto;
+}
+
+.content-2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 40px;
+}
+
+.content-2 figure{
+    width: 20%;
+    align-self: flex-start;
+}
+
+div .circle {
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    /*background-image: radial-gradient(closest-side circle, #B4E2FF 0, #B4E2FF 80%, transparent);*/
+    border-radius: 80% 80% 80% 80%;
+    background-color: #B4E2FF;
+}
+
+.circle img{
+    position: relative;
+    top: 25%;
+}
+
+.content-2 figcaption{
+    font-size: 16px;
+    font-weight: thin;
+    margin-top: 20px;
+    color: #EFEFEF;
+}
 
 
 /*section-four style*/
